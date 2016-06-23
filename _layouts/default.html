@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   {%  include head.html %}
 </head>
@@ -10,20 +9,19 @@
     <div class="inner">
       <header>
         <h1><a href="{{ site.url }}/">{{ site.name }}</a></h1>
-        <h2>Open Source version of the GitHub Pages theme (jekyll version)</h2>
       </header>
 
-      {%  include download.html %}
       <hr/>
 
       <section id="main_content">
         {{ content }}
       </section>
+
       <footer>
         {%  include footer.html %}
       </footer>
     </div>
   </div>
+  {%  include analytics.html %}
 </body>
-
 </html>

@@ -1,4 +1,15 @@
-name: Tactile Theme
-markdown: redcarpet
-pygments: true
+title: slim bookmarks
 permalink: pretty
+
+baseurl: /slim_bookmarks
+url: https://chocobo1.github.io
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - index-non-jekyll.html
+
+google_analytics: G-P10E74KD5W
